@@ -1,0 +1,32 @@
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: purple;
+    animation-name: bouncing_ball;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    margin: 0 auto;
+    }
+
+@keyframes  bouncing_ball  {
+    0%{
+        background-color: purple;
+        top: 0px;
+    }
+ 
+    50%{
+        background-color: violet;
+        height: 75px;
+        width: 150px;
+        top: 300px;
+    }
+    
+    100%{
+        background-color: purple;
+        top: 0px;
+
+    }
+    
+}
